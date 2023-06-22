@@ -172,8 +172,8 @@ class MainActivity : AppCompatActivity() {
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         Log.d(TAG, "onSaveInstanceState Called")
-//        outState.putInt(KEY_REVENUE, revenue)
-//        outState.putInt(KEY_DESSERT_SOLD, dessertsSold)
+        outState.putInt(KEY_REVENUE, revenue)
+        outState.putInt(KEY_DESSERT_SOLD, dessertsSold)
     }
 
 
