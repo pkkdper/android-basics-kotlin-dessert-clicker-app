@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
         // If there isn't a bundle, then it's a "fresh" start
         if (savedInstanceState != null) {
             revenue = savedInstanceState.getInt(KEY_REVENUE, 0)
-            dessertsSold = savedInstanceState.getInt(KEY_DESSERT_SOLD, 0)
+//            dessertsSold = savedInstanceState.getInt(KEY_DESSERT_SOLD, 0)
             // Show the correct dessert
             showCurrentDessert()
         }
